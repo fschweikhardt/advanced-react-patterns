@@ -176,6 +176,7 @@ function UserSettings() {
         </button>
         {isRejected ? <pre style={{color: 'red'}}>{error.message}</pre> : null}
       </div>
+      <pre></pre>
     </form>
   )
 }
